@@ -1,7 +1,7 @@
 import random
 from typing import Text
 
-words = ['ali', 'homa']
+words = ['ali', 'moeen', 'amirali', 'rajab', 'amin', 'jafar', 'rasool', 'omidreza', 'saeideh', 'mahsa', 'fatemeh', 'najaf', 'danesh', 'alireza', 'aidin', 'maryam', 'masoumeh', 'reza', 'sajjad', 'benyamin', 'shadi', 'rezvaneh', 'negin', 'seyedali', 'amirhosein', 'hananeh', 'mahshid', 'mahdis', 'parvaneh', 'parisa', 'azar', 'nahid', 'nahich', 'mahyar', 'arash', 'korosh', 'mohammadhadi', 'arman', 'ghazal', 'elham']
 
 n = int(input('Levels ? (0:Easy, 1:Normal , 2:Hard)'))
 if (n == 0):
