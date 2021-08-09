@@ -1,5 +1,6 @@
 # STR = input()
 # print(len(STR.split()))
+# -------------------------------
 
 def counter(string):
     x = 0
