@@ -13,3 +13,5 @@ for i in range(6):
         t.forward(40 + (12 * i))
         
 os.system('PAUSE')
+
+# this code is incomplete
