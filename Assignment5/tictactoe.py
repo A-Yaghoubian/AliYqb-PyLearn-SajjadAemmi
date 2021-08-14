@@ -18,13 +18,13 @@ def show_game():
 def enter_rc(player):   
     while True:
         row = int(input('row: '))
-        if 0 <= row <= 3:
+        if 1 <= row <= 3:
             pass
         else:
             print('WARNING! Out of range, Try Again ...')
             continue 
         column = int(input('column: '))
-        if 0 <= column <= 3:
+        if 1 <= column <= 3:
             pass
         else:
             print('WARNING! Out of range, Try Again ...')
@@ -42,13 +42,13 @@ def enter_rc(player):
 def enter():   
     while True:
         row = int(input('row: '))
-        if 0 <= row <= 3:
+        if 1 <= row <= 3:
             pass
         else:
             print('WARNING! Out of range, Try Again ...')
             continue 
         column = int(input('column: '))
-        if 0 <= column <= 3:
+        if 1 <= column <= 3:
             pass
         else:
             print('WARNING! Out of range, Try Again ...')
