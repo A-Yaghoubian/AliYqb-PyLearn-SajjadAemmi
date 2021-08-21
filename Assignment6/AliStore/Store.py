@@ -2,8 +2,8 @@ from pyfiglet import Figlet
 import qrcode
 
 PRODUCTS = []
-address = 'E:\programming\PyLearn-SajjadAemmi\Assignment6\AliStore\database.txt'
-qrcode_address = 'E:\programming\PyLearn-SajjadAemmi\Assignment6\AliStore\qrcode.png'
+address = 'database.txt'
+qrcode_address = 'qrcode.png'
 
 def show_menu():
     print('1- Add Product')
