@@ -1,5 +1,5 @@
 translator_list = []
-address = 'E:\programming\PyLearn-SajjadAemmi\Assignment7\Translate.txt'
+address = 'Translate.txt'
 
 def download_texts(address):    
     try:
