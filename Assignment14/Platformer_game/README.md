@@ -4,8 +4,8 @@ You should try to open the lock with key to show you the way out
 Be careful not to get close to the zombies
 
 # Rules
-You can move left and right. And so you can jump.
-You have three stars for your health
+1. You can move left and right. And so you can jump.
+2. You have three stars for your health
 
 # Pictures of Platformer Game
 ![Screenshot (46)](https://user-images.githubusercontent.com/79134287/134115165-8160489b-6575-494b-81f5-9cdf53b6cc99.png)
