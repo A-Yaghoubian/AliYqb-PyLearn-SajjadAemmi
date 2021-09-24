@@ -2,7 +2,7 @@
 ##### Programmer: Ali Yaghoubian
 
 - You can jump and you can bend.
-*be careful*
+- *be careful*
 
 ### Pictures
 ![Screenshot (52)](https://user-images.githubusercontent.com/79134287/134707261-413116ad-175d-45d4-807b-90b4861d834d.png)
