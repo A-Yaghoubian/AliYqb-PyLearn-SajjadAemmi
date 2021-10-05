@@ -1,6 +1,6 @@
 # Calculator
 
-simple calculator programed with python and QT
+simple calculator Programmed with python and QT
 
 ### picture
 
