@@ -4,7 +4,7 @@ Play X-O game with your friends or stupid computer.
 
 You can use new game and about button and see game's score board.
 
-This game programmed with _Python_ and _QT (PySide6)_
+This game programmed with _Python_ and _QT (PySide6)_.
 Programmer: Ali Yaghoubian
 
 ### Picture
