@@ -2,7 +2,7 @@
 
 This is a useful tool.
 
-This programmed with PySide6 (Python, QT)
+This is programmed with PySide6 (Python, QT)
 
 programmer: Ali Yaghoubian
 
