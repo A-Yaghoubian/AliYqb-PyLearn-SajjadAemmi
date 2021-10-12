@@ -2,7 +2,7 @@
 
 A game for fun :)
 
-This game programmed with PySide6 (Python, QT)
+This game is programmed with PySide6 (Python, QT)
 
 programmer: Ali Yaghoubian
 
