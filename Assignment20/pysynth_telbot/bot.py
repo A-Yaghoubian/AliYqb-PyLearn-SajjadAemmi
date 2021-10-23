@@ -5,7 +5,7 @@ from gtts import gTTS
 import qrcode
 import pysynth_b
 
-TOKEN = '2019327355:AAF9JCQPiBsOQKrEivcNfGlAoFk5nWKQ0jc'
+TOKEN = ''
 bot = telebot.TeleBot(TOKEN)
 
 @bot.message_handler(commands=['Start', 'start'])
