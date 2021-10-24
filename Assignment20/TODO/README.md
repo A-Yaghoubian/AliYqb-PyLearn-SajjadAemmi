@@ -1,9 +1,11 @@
 # TODO List Application
 
 Perfect for your daily planning
+
 This app programmed with _Python_, _QT_ and _SQL_
 
 Programmer: Ali Yaghoubian
+
 Support: ayaghoubian2000@gmail.com
 
 ### Pictures
