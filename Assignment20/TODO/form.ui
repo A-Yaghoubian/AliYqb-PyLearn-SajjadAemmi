@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>416</width>
+    <height>516</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>TODO List</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>images.png</normaloff>images.png</iconset>
+  </property>
+  <property name="statusTip">
+   <string>Programmer: Ali Yaghoubian</string>
+  </property>
+  <property name="whatsThis">
+   <string/>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="1" column="0" colspan="2">
+     <layout class="QGridLayout" name="gridLayout_2">
+      <item row="1" column="0">
+       <widget class="QLabel" name="label_4">
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+          <italic>true</italic>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Description:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1" colspan="3">
+       <widget class="QLineEdit" name="line_description">
+        <property name="font">
+         <font>
+          <family>Segoe Print</family>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius: 10px;</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+        <property name="placeholderText">
+         <string>Description</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="4" rowspan="4">
+       <widget class="QPushButton" name="btn">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>18</pointsize>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: white;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>download.jpg</normaloff>download.jpg</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>40</width>
+          <height>40</height>
+         </size>
+        </property>
+        <property name="autoDefault">
+         <bool>false</bool>
+        </property>
+        <property name="default">
+         <bool>false</bool>
+        </property>
+        <property name="flat">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1" colspan="2">
+       <widget class="QLineEdit" name="line_title">
+        <property name="font">
+         <font>
+          <family>Segoe Print</family>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius: 10px;</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+        <property name="placeholderText">
+         <string>Title</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <widget class="QLabel" name="label_3">
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+          <italic>true</italic>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Title:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0">
+       <widget class="QLabel" name="label">
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+          <italic>true</italic>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Date:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="3">
+       <widget class="QComboBox" name="combo">
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+          <italic>true</italic>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius: 10px;</string>
+        </property>
+        <property name="editable">
+         <bool>false</bool>
+        </property>
+        <property name="currentText">
+         <string>Important</string>
+        </property>
+        <property name="currentIndex">
+         <number>0</number>
+        </property>
+        <property name="maxVisibleItems">
+         <number>10</number>
+        </property>
+        <property name="maxCount">
+         <number>2147483647</number>
+        </property>
+        <item>
+         <property name="text">
+          <string>Important</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Unimportant</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="3" column="3">
+       <widget class="QLineEdit" name="line_time">
+        <property name="font">
+         <font>
+          <family>Segoe Print</family>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius: 10px;</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+        <property name="placeholderText">
+         <string>8:03</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="1">
+       <widget class="QLineEdit" name="line_date">
+        <property name="font">
+         <font>
+          <family>Segoe Print</family>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius: 10px;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+        <property name="placeholderText">
+         <string>25 October</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="2">
+       <widget class="QLabel" name="label_2">
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+          <italic>true</italic>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Time:</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="0" column="0" colspan="2">
+     <layout class="QGridLayout" name="gridLayout_3">
+      <item row="0" column="0">
+       <widget class="QTabWidget" name="tabWidget">
+        <property name="currentIndex">
+         <number>0</number>
+        </property>
+        <widget class="QWidget" name="tab">
+         <attribute name="title">
+          <string>Remained</string>
+         </attribute>
+         <layout class="QGridLayout" name="gridLayout_4">
+          <item row="0" column="0">
+           <layout class="QGridLayout" name="gridLayout_remain"/>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QWidget" name="tab_2">
+         <attribute name="title">
+          <string>Done</string>
+         </attribute>
+         <layout class="QGridLayout" name="gridLayout_6">
+          <item row="0" column="0">
+           <layout class="QGridLayout" name="gridLayout_done"/>
+          </item>
+         </layout>
+        </widget>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
