@@ -11,6 +11,11 @@ for i in range(800):
         if (a + b) % 2 == 0:
             img[i, j] = 255
             
+img[0:799, 0] = 0
+img[0:799, 799] = 0
+img[0, 0:799] = 0
+img[799, 0:799] = 0            
+            
 cv2.imwrite('1/shatranji.jpg', img)
 cv2.imshow('picture', img)
 cv2.waitKey()
