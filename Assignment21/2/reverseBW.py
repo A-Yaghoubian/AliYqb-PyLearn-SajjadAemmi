@@ -10,6 +10,9 @@ for i in range(female.shape[0]):
 for i in range(male.shape[0]):
     for j in range(male.shape[1]):
         male[i, j] = 255 - male[i, j]
+        
+# female[: , :] = 255 - female[: , :]
+# male[: , :] = 255 - male[: , :]
 
 cv2.imwrite('2/male.jpg', male)
 cv2.imwrite('2/female.jpg', female)
