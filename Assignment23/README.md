@@ -1,13 +1,12 @@
 # Advanced Webcam
 advancedWebcam.py is used _python_ and _OpenCV_
 
+0. Raw Face
 1. Emoji Face 
 2. Funny Face
 3. Pixelate Face
 4. Blur Face
 5. Reverse Face
-6. Raw Face 
-7. Quit
 
 ## result (video)
 
