@@ -8,14 +8,14 @@ result = np.zeros(img.shape)
 
 rows, cols = img.shape
 
-# ret, thresh1 = cv2.threshold(src=result, thresh=100, maxval=255, type=cv2.THRESH_BINARY)
-# result = thresh1 
-
-for i in range(4, rows - 4):
-    for j in range(4, cols - 4):
-        small_img = img[i-4:i+5, j-4:j+5]
-        small_img_1d = small_img.reshape(81)
-        small_img_1d_sorted = np.sort(small_img_1d)
-        result[i, j] = small_img_1d_sorted[40]
+for i in range(13, rows - 13):
+    for j in range(13, cols - 13):
+        if img[i, j] < 180:
+            small_img = img[i-13:i+14, j-13:j+14]
+            small_img_1d = small_img.reshape(729)
+            small_img_1d_sorted = np.sort(small_img_1d)
+            result[i, j] = small_img_1d_sorted[364]
+        else:
+            result[i, j] = img[i, j]
 
 cv2.imwrite("output/flower_output.jpg", result)
