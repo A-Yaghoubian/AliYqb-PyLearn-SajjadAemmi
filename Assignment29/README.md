@@ -25,3 +25,4 @@ _There are contrast problems in it and it will be solved soon!_
 # 5 
 ### Color picker
 
+![Capture](https://user-images.githubusercontent.com/79134287/147853284-412d4679-7aeb-491f-ae19-f0aed22954c6.JPG)
