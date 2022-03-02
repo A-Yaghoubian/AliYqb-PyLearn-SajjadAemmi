@@ -7,10 +7,10 @@ I used _DeepFace_ in my project.
     Algorithm | MLP |
     ------------- | ------------- |
     Accuracy (train) | 100 % |
+    Loss (train) | 00.001 |
     ------------- | ------------- |
-    Evaluate (test) | 81 % |
-    ------------- | ------------- |
-    Loss | 00.00 |
+    Accuracy (test) | 81 % |
+    Loss (test) | 00.54 |
     
 #### Wandb plots
 ![W B Chart 3_2_2022, 11_09_29 PM](https://user-images.githubusercontent.com/79134287/156439281-a65fac87-b114-492d-b397-57efedbbfcca.png)
