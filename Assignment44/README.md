@@ -30,8 +30,7 @@ You can see different diagrams of this code in _WandB_
 | Train Loss | Val Loss | Test Loss |
 | :--------: | :------: | :-------: |
 |   0.1676   |  1.2001  |  1.1337   |
-| :--------: | :------: | :-------: |
-| :--------: | :------: | :-------: |
+
 | Train Acc  | Val Acc  | Test Acc  |
 | :--------: | :------: | :-------: |
 |  94.23%    |  75.71%  |  67.63%   |
