@@ -2,7 +2,7 @@ import telebot
 from animalDetector_CNN_model import Animal_Detector_CNN
 
 detector = Animal_Detector_CNN()
-bot = telebot.TeleBot("5221017167:AAF4B-yz6k_RY9PaPmqJ0kgtB1tlj-Ub7v4")
+bot = telebot.TeleBot(token="TOKEN")
 
 def get_image(user_image):
     try:
