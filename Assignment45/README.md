@@ -1,4 +1,4 @@
-# Sheykh Recognizer 🕵️‍♂️
+# Sheykh Recognizer 👳‍♂️
 Identify Sheykh from images using _ResNet50V2_
 
 
