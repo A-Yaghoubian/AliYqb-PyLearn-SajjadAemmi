@@ -3,7 +3,7 @@ Face mask detection with using _TensorFlow_ and _Keras_ and _OpenCV_ and _PySide
 
 **Kaggle Dataset Link:** [Face Mask](https://www.kaggle.com/ashishjangra27/face-mask-12k-images-dataset)
 
-### Model:
+#### Base Model:
 - [x] MobileNetV2
 
 ### Accuracy & Loss:
