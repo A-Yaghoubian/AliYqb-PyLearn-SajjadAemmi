@@ -1,5 +1,5 @@
 # Face Mask Detection
-Face mask detection with using _TensorFlow_ and _Keras_ and _OpenCV_ and _PySide6_
+Face mask detection with using _TensorFlow_ and _Keras_ and _OpenCV_ and _PySide6_ and _Numpy_
 
 **Kaggle Dataset Link:** [Face Mask](https://www.kaggle.com/ashishjangra27/face-mask-12k-images-dataset)
 
