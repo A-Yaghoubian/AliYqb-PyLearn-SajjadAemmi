@@ -15,4 +15,4 @@ MobileNetV2 | 99.19 %  | 0.0283 |   4    |
 ### Charts
 - https://wandb.ai/aliyaghoubian/Face%20Mask%20Detection?workspace=user-aliyaghoubian
 
-* You can use your webcam in the inference section to use this code.
+### You can use your webcam in the inference section to use this code.
