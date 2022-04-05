@@ -12,5 +12,5 @@ This code uses a network that I designed myself, called _AliNet_.
 
 ### Inference
 ````shell
-  usage: python3 inference.py [Image Path] [Weights Path]
+   python3 inference.py [Image Path] [Weights Path]
 ````
